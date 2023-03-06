@@ -1,0 +1,1 @@
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c065b.dir/CheckFunctionExists.c.o  -o cmTC_c065b  -lpthreads 

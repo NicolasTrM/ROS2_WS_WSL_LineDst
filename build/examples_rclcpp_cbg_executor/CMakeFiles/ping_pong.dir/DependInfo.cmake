@@ -1,0 +1,30 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/ping_node.cpp" "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor/CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o"
+  "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/pong_node.cpp" "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor/CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o"
+  "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp" "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor/CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
+  "RCUTILS_ENABLE_FAULT_INJECTION"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor/include"
+  "/opt/ros/galactic/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install

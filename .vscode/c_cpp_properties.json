@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/galactic/include/**",
+        "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition/include/**",
+        "/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

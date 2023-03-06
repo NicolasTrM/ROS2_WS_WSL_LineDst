@@ -1,0 +1,1122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000569] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000641] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000714] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000781] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.000849] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000917] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.000984] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001049] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.001115] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.001183] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.001249] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.001316] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001389] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.001457] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.001527] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001593] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.002521] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.002801] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.002882] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.023195] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.048114] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.058258] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.075128] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.092152] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.104027] (-) TimerEvent: {}
+[0.109713] (examples_rclcpp_minimal_service) JobStarted: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.136050] (examples_rclcpp_minimal_subscriber) JobStarted: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.156167] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.157529] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.170942] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'cmake'}
+[0.171460] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_client'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.205461] (-) TimerEvent: {}
+[0.206834] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'cmake'}
+[0.207259] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_server'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.237981] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'cmake'}
+[0.263597] (examples_rclcpp_minimal_client) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_client'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.265076] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'cmake'}
+[0.265152] (examples_rclcpp_minimal_composition) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_composition', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_composition'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.265978] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'cmake'}
+[0.266016] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.273977] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'cmake'}
+[0.277783] (examples_rclcpp_minimal_service) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.285678] (examples_rclcpp_minimal_subscriber) JobProgress: {'identifier': 'examples_rclcpp_minimal_subscriber', 'progress': 'cmake'}
+[0.287129] (examples_rclcpp_minimal_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_subscriber'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.305772] (-) TimerEvent: {}
+[0.406414] (-) TimerEvent: {}
+[0.507062] (-) TimerEvent: {}
+[0.607415] (-) TimerEvent: {}
+[0.710359] (-) TimerEvent: {}
+[0.810753] (-) TimerEvent: {}
+[0.911209] (-) TimerEvent: {}
+[1.012452] (-) TimerEvent: {}
+[1.114479] (-) TimerEvent: {}
+[1.215685] (-) TimerEvent: {}
+[1.316199] (-) TimerEvent: {}
+[1.451850] (-) TimerEvent: {}
+[1.552392] (-) TimerEvent: {}
+[1.649131] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.652517] (-) TimerEvent: {}
+[1.676045] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.755479] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.758857] (-) TimerEvent: {}
+[1.859221] (-) TimerEvent: {}
+[1.884319] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.933791] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.945842] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.959340] (-) TimerEvent: {}
+[2.061198] (-) TimerEvent: {}
+[2.161851] (-) TimerEvent: {}
+[2.263334] (-) TimerEvent: {}
+[2.365780] (-) TimerEvent: {}
+[2.466308] (-) TimerEvent: {}
+[2.569624] (-) TimerEvent: {}
+[2.670707] (-) TimerEvent: {}
+[2.771176] (-) TimerEvent: {}
+[2.881634] (-) TimerEvent: {}
+[2.983860] (-) TimerEvent: {}
+[3.084244] (-) TimerEvent: {}
+[3.185022] (-) TimerEvent: {}
+[3.287879] (-) TimerEvent: {}
+[3.388309] (-) TimerEvent: {}
+[3.488717] (-) TimerEvent: {}
+[3.505473] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.590484] (-) TimerEvent: {}
+[3.681392] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.690752] (-) TimerEvent: {}
+[3.792392] (-) TimerEvent: {}
+[3.805403] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.810804] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.835792] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.892706] (-) TimerEvent: {}
+[3.908175] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.992845] (-) TimerEvent: {}
+[4.093521] (-) TimerEvent: {}
+[4.194292] (-) TimerEvent: {}
+[4.294852] (-) TimerEvent: {}
+[4.395435] (-) TimerEvent: {}
+[4.496103] (-) TimerEvent: {}
+[4.597711] (-) TimerEvent: {}
+[4.612935] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.697829] (-) TimerEvent: {}
+[4.798231] (-) TimerEvent: {}
+[4.816122] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.876267] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.899098] (-) TimerEvent: {}
+[4.978240] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.983445] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.999491] (-) TimerEvent: {}
+[5.101867] (-) TimerEvent: {}
+[5.197900] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[5.203539] (-) TimerEvent: {}
+[5.304068] (-) TimerEvent: {}
+[5.404943] (-) TimerEvent: {}
+[5.505864] (-) TimerEvent: {}
+[5.564007] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.564777] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.606618] (-) TimerEvent: {}
+[5.707507] (-) TimerEvent: {}
+[5.807942] (-) TimerEvent: {}
+[5.908486] (-) TimerEvent: {}
+[5.932546] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.933564] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.965494] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.965786] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.009556] (-) TimerEvent: {}
+[6.041412] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.041669] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.045466] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.046916] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.109669] (-) TimerEvent: {}
+[6.210340] (-) TimerEvent: {}
+[6.312020] (-) TimerEvent: {}
+[6.413967] (-) TimerEvent: {}
+[6.414575] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.414753] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.514756] (-) TimerEvent: {}
+[6.587466] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.607377] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.608104] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.611049] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.616025] (-) TimerEvent: {}
+[6.724221] (-) TimerEvent: {}
+[6.828304] (-) TimerEvent: {}
+[6.928891] (-) TimerEvent: {}
+[6.964073] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.970972] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.971463] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.976897] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.029012] (-) TimerEvent: {}
+[7.132142] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.132375] (-) TimerEvent: {}
+[7.140948] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.150754] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.151231] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.156896] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.158364] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.170984] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.171338] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.214610] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.232571] (-) TimerEvent: {}
+[7.264245] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.264562] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.270383] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.340173] (-) TimerEvent: {}
+[7.441807] (-) TimerEvent: {}
+[7.543740] (-) TimerEvent: {}
+[7.562133] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.570812] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.571475] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.583064] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.643940] (-) TimerEvent: {}
+[7.722307] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.722555] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.746042] (-) TimerEvent: {}
+[7.847267] (-) TimerEvent: {}
+[7.947661] (-) TimerEvent: {}
+[8.000821] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.002075] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.047844] (-) TimerEvent: {}
+[8.148293] (-) TimerEvent: {}
+[8.202307] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.205856] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.220349] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.220753] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.250149] (-) TimerEvent: {}
+[8.358362] (-) TimerEvent: {}
+[8.412959] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.420117] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.458848] (-) TimerEvent: {}
+[8.513473] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.513716] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.513823] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.532280] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.532522] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.532618] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[8.558956] (-) TimerEvent: {}
+[8.572553] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[8.572939] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.659850] (-) TimerEvent: {}
+[8.760745] (-) TimerEvent: {}
+[8.821672] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)\n'}
+[8.861344] (-) TimerEvent: {}
+[8.962315] (-) TimerEvent: {}
+[8.990695] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.019496] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.020489] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.022678] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[9.067521] (-) TimerEvent: {}
+[9.091702] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.100504] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.167670] (-) TimerEvent: {}
+[9.268193] (-) TimerEvent: {}
+[9.337245] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)\n'}
+[9.369301] (-) TimerEvent: {}
+[9.377951] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.397256] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.397472] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.398171] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[9.452609] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.453914] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.469604] (-) TimerEvent: {}
+[9.570044] (-) TimerEvent: {}
+[9.574735] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.607140] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.608414] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.611115] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[9.618117] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.640680] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[9.657157] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.661815] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.666078] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[9.670152] (-) TimerEvent: {}
+[9.679479] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.679856] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.722486] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.722714] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.766292] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.770280] (-) TimerEvent: {}
+[9.793604] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.795183] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.795690] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[9.841355] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[9.861847] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.862101] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.870421] (-) TimerEvent: {}
+[9.872663] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[9.971006] (-) TimerEvent: {}
+[10.020631] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)\n'}
+[10.073667] (-) TimerEvent: {}
+[10.175975] (-) TimerEvent: {}
+[10.276750] (-) TimerEvent: {}
+[10.380079] (-) TimerEvent: {}
+[10.437351] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.448797] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[10.479449] (-) TimerEvent: {}
+[10.580710] (-) TimerEvent: {}
+[10.681174] (-) TimerEvent: {}
+[10.782075] (-) TimerEvent: {}
+[10.882580] (-) TimerEvent: {}
+[10.892634] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.903418] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[10.972579] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.976307] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[10.978112] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.983567] (-) TimerEvent: {}
+[10.983914] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[11.084426] (-) TimerEvent: {}
+[11.180075] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.184491] (-) TimerEvent: {}
+[11.187508] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[11.284804] (-) TimerEvent: {}
+[11.385446] (-) TimerEvent: {}
+[11.485973] (-) TimerEvent: {}
+[11.588278] (-) TimerEvent: {}
+[11.689209] (-) TimerEvent: {}
+[11.790815] (-) TimerEvent: {}
+[11.892714] (-) TimerEvent: {}
+[11.899555] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.905139] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[11.992892] (-) TimerEvent: {}
+[12.093590] (-) TimerEvent: {}
+[12.195146] (-) TimerEvent: {}
+[12.297329] (-) TimerEvent: {}
+[12.399908] (-) TimerEvent: {}
+[12.500442] (-) TimerEvent: {}
+[12.601452] (-) TimerEvent: {}
+[12.701912] (-) TimerEvent: {}
+[12.803035] (-) TimerEvent: {}
+[12.903744] (-) TimerEvent: {}
+[13.004243] (-) TimerEvent: {}
+[13.105672] (-) TimerEvent: {}
+[13.206631] (-) TimerEvent: {}
+[13.314245] (-) TimerEvent: {}
+[13.415074] (-) TimerEvent: {}
+[13.516131] (-) TimerEvent: {}
+[13.617009] (-) TimerEvent: {}
+[13.719908] (-) TimerEvent: {}
+[13.821673] (-) TimerEvent: {}
+[13.924624] (-) TimerEvent: {}
+[14.026692] (-) TimerEvent: {}
+[14.127130] (-) TimerEvent: {}
+[14.230423] (-) TimerEvent: {}
+[14.330930] (-) TimerEvent: {}
+[14.433639] (-) TimerEvent: {}
+[14.534409] (-) TimerEvent: {}
+[14.635504] (-) TimerEvent: {}
+[14.745097] (-) TimerEvent: {}
+[14.847724] (-) TimerEvent: {}
+[14.948276] (-) TimerEvent: {}
+[15.050689] (-) TimerEvent: {}
+[15.152765] (-) TimerEvent: {}
+[15.254443] (-) TimerEvent: {}
+[15.354850] (-) TimerEvent: {}
+[15.455399] (-) TimerEvent: {}
+[15.557731] (-) TimerEvent: {}
+[15.658269] (-) TimerEvent: {}
+[15.758688] (-) TimerEvent: {}
+[15.861783] (-) TimerEvent: {}
+[15.962599] (-) TimerEvent: {}
+[16.068655] (-) TimerEvent: {}
+[16.172497] (-) TimerEvent: {}
+[16.273189] (-) TimerEvent: {}
+[16.375743] (-) TimerEvent: {}
+[16.482467] (-) TimerEvent: {}
+[16.585231] (-) TimerEvent: {}
+[16.686820] (-) TimerEvent: {}
+[16.789489] (-) TimerEvent: {}
+[16.890226] (-) TimerEvent: {}
+[16.993270] (-) TimerEvent: {}
+[17.096907] (-) TimerEvent: {}
+[17.200560] (-) TimerEvent: {}
+[17.301011] (-) TimerEvent: {}
+[17.402246] (-) TimerEvent: {}
+[17.503421] (-) TimerEvent: {}
+[17.604010] (-) TimerEvent: {}
+[17.704444] (-) TimerEvent: {}
+[17.804900] (-) TimerEvent: {}
+[17.906071] (-) TimerEvent: {}
+[18.006489] (-) TimerEvent: {}
+[18.023247] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[18.106779] (-) TimerEvent: {}
+[18.208099] (-) TimerEvent: {}
+[18.308815] (-) TimerEvent: {}
+[18.409570] (-) TimerEvent: {}
+[18.525125] (-) TimerEvent: {}
+[18.545703] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[18.625884] (-) TimerEvent: {}
+[18.728125] (-) TimerEvent: {}
+[18.769852] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[18.828275] (-) TimerEvent: {}
+[18.929445] (-) TimerEvent: {}
+[19.033963] (-) TimerEvent: {}
+[19.135182] (-) TimerEvent: {}
+[19.236138] (-) TimerEvent: {}
+[19.336778] (-) TimerEvent: {}
+[19.438895] (-) TimerEvent: {}
+[19.539527] (-) TimerEvent: {}
+[19.642146] (-) TimerEvent: {}
+[19.742789] (-) TimerEvent: {}
+[19.843844] (-) TimerEvent: {}
+[19.945085] (-) TimerEvent: {}
+[20.047295] (-) TimerEvent: {}
+[20.148781] (-) TimerEvent: {}
+[20.250137] (-) TimerEvent: {}
+[20.350579] (-) TimerEvent: {}
+[20.451274] (-) TimerEvent: {}
+[20.551706] (-) TimerEvent: {}
+[20.652893] (-) TimerEvent: {}
+[20.754611] (-) TimerEvent: {}
+[20.854975] (-) TimerEvent: {}
+[20.960743] (-) TimerEvent: {}
+[21.062752] (-) TimerEvent: {}
+[21.119645] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[21.120279] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[21.163471] (-) TimerEvent: {}
+[21.265558] (-) TimerEvent: {}
+[21.367556] (-) TimerEvent: {}
+[21.468668] (-) TimerEvent: {}
+[21.569950] (-) TimerEvent: {}
+[21.670788] (-) TimerEvent: {}
+[21.771382] (-) TimerEvent: {}
+[21.873265] (-) TimerEvent: {}
+[21.974347] (-) TimerEvent: {}
+[22.075673] (-) TimerEvent: {}
+[22.177323] (-) TimerEvent: {}
+[22.278088] (-) TimerEvent: {}
+[22.379335] (-) TimerEvent: {}
+[22.480550] (-) TimerEvent: {}
+[22.581285] (-) TimerEvent: {}
+[22.682399] (-) TimerEvent: {}
+[22.783632] (-) TimerEvent: {}
+[22.885345] (-) TimerEvent: {}
+[22.985916] (-) TimerEvent: {}
+[23.087485] (-) TimerEvent: {}
+[23.187991] (-) TimerEvent: {}
+[23.288966] (-) TimerEvent: {}
+[23.389644] (-) TimerEvent: {}
+[23.491005] (-) TimerEvent: {}
+[23.591859] (-) TimerEvent: {}
+[23.692366] (-) TimerEvent: {}
+[23.798157] (-) TimerEvent: {}
+[23.899191] (-) TimerEvent: {}
+[24.001163] (-) TimerEvent: {}
+[24.102303] (-) TimerEvent: {}
+[24.202699] (-) TimerEvent: {}
+[24.305028] (-) TimerEvent: {}
+[24.406952] (-) TimerEvent: {}
+[24.508695] (-) TimerEvent: {}
+[24.609755] (-) TimerEvent: {}
+[24.710619] (-) TimerEvent: {}
+[24.811664] (-) TimerEvent: {}
+[24.912688] (-) TimerEvent: {}
+[25.013468] (-) TimerEvent: {}
+[25.105938] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[25.114392] (-) TimerEvent: {}
+[25.216317] (-) TimerEvent: {}
+[25.316728] (-) TimerEvent: {}
+[25.420227] (-) TimerEvent: {}
+[25.521092] (-) TimerEvent: {}
+[25.621891] (-) TimerEvent: {}
+[25.722406] (-) TimerEvent: {}
+[25.822815] (-) TimerEvent: {}
+[25.925088] (-) TimerEvent: {}
+[26.027872] (-) TimerEvent: {}
+[26.130362] (-) TimerEvent: {}
+[26.230831] (-) TimerEvent: {}
+[26.332191] (-) TimerEvent: {}
+[26.434669] (-) TimerEvent: {}
+[26.537390] (-) TimerEvent: {}
+[26.638349] (-) TimerEvent: {}
+[26.739554] (-) TimerEvent: {}
+[26.843648] (-) TimerEvent: {}
+[26.945453] (-) TimerEvent: {}
+[27.047329] (-) TimerEvent: {}
+[27.147946] (-) TimerEvent: {}
+[27.255728] (-) TimerEvent: {}
+[27.361461] (-) TimerEvent: {}
+[27.457102] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[27.459774] (-) TimerEvent: {}
+[27.561565] (-) TimerEvent: {}
+[27.661984] (-) TimerEvent: {}
+[27.762469] (-) TimerEvent: {}
+[27.863866] (-) TimerEvent: {}
+[27.965821] (-) TimerEvent: {}
+[28.068254] (-) TimerEvent: {}
+[28.168707] (-) TimerEvent: {}
+[28.269331] (-) TimerEvent: {}
+[28.370475] (-) TimerEvent: {}
+[28.470921] (-) TimerEvent: {}
+[28.571394] (-) TimerEvent: {}
+[28.672826] (-) TimerEvent: {}
+[28.773555] (-) TimerEvent: {}
+[28.874342] (-) TimerEvent: {}
+[28.975025] (-) TimerEvent: {}
+[29.075746] (-) TimerEvent: {}
+[29.078360] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[29.177905] (-) TimerEvent: {}
+[29.279075] (-) TimerEvent: {}
+[29.381251] (-) TimerEvent: {}
+[29.481911] (-) TimerEvent: {}
+[29.582715] (-) TimerEvent: {}
+[29.684074] (-) TimerEvent: {}
+[29.707952] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[29.784403] (-) TimerEvent: {}
+[29.885567] (-) TimerEvent: {}
+[29.986107] (-) TimerEvent: {}
+[30.098080] (-) TimerEvent: {}
+[30.180615] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[30.200073] (-) TimerEvent: {}
+[30.301734] (-) TimerEvent: {}
+[30.403224] (-) TimerEvent: {}
+[30.478652] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[30.513831] (-) TimerEvent: {}
+[30.617564] (-) TimerEvent: {}
+[30.722349] (-) TimerEvent: {}
+[30.836091] (-) TimerEvent: {}
+[30.937517] (-) TimerEvent: {}
+[31.038669] (-) TimerEvent: {}
+[31.140034] (-) TimerEvent: {}
+[31.252135] (-) TimerEvent: {}
+[31.354563] (-) TimerEvent: {}
+[31.455710] (-) TimerEvent: {}
+[31.556212] (-) TimerEvent: {}
+[31.656647] (-) TimerEvent: {}
+[31.758147] (-) TimerEvent: {}
+[31.858555] (-) TimerEvent: {}
+[31.959290] (-) TimerEvent: {}
+[32.060504] (-) TimerEvent: {}
+[32.162140] (-) TimerEvent: {}
+[32.267446] (-) TimerEvent: {}
+[32.369809] (-) TimerEvent: {}
+[32.473838] (-) TimerEvent: {}
+[32.576735] (-) TimerEvent: {}
+[32.679334] (-) TimerEvent: {}
+[32.780180] (-) TimerEvent: {}
+[32.884151] (-) TimerEvent: {}
+[32.985584] (-) TimerEvent: {}
+[33.087981] (-) TimerEvent: {}
+[33.189881] (-) TimerEvent: {}
+[33.290368] (-) TimerEvent: {}
+[33.391407] (-) TimerEvent: {}
+[33.492884] (-) TimerEvent: {}
+[33.593315] (-) TimerEvent: {}
+[33.698481] (-) TimerEvent: {}
+[33.801036] (-) TimerEvent: {}
+[33.902624] (-) TimerEvent: {}
+[34.003821] (-) TimerEvent: {}
+[34.105124] (-) TimerEvent: {}
+[34.205532] (-) TimerEvent: {}
+[34.306238] (-) TimerEvent: {}
+[34.407025] (-) TimerEvent: {}
+[34.511037] (-) TimerEvent: {}
+[34.611845] (-) TimerEvent: {}
+[34.713483] (-) TimerEvent: {}
+[34.819960] (-) TimerEvent: {}
+[34.925215] (-) TimerEvent: {}
+[35.028019] (-) TimerEvent: {}
+[35.129584] (-) TimerEvent: {}
+[35.230037] (-) TimerEvent: {}
+[35.330616] (-) TimerEvent: {}
+[35.433474] (-) TimerEvent: {}
+[35.534773] (-) TimerEvent: {}
+[35.636484] (-) TimerEvent: {}
+[35.737499] (-) TimerEvent: {}
+[35.837895] (-) TimerEvent: {}
+[35.940024] (-) TimerEvent: {}
+[36.040703] (-) TimerEvent: {}
+[36.143111] (-) TimerEvent: {}
+[36.244526] (-) TimerEvent: {}
+[36.346631] (-) TimerEvent: {}
+[36.369232] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[36.447001] (-) TimerEvent: {}
+[36.548734] (-) TimerEvent: {}
+[36.649459] (-) TimerEvent: {}
+[36.750076] (-) TimerEvent: {}
+[36.850910] (-) TimerEvent: {}
+[36.952762] (-) TimerEvent: {}
+[37.053481] (-) TimerEvent: {}
+[37.154737] (-) TimerEvent: {}
+[37.256194] (-) TimerEvent: {}
+[37.356711] (-) TimerEvent: {}
+[37.458550] (-) TimerEvent: {}
+[37.559939] (-) TimerEvent: {}
+[37.660980] (-) TimerEvent: {}
+[37.761347] (-) TimerEvent: {}
+[37.863847] (-) TimerEvent: {}
+[37.966113] (-) TimerEvent: {}
+[38.066841] (-) TimerEvent: {}
+[38.167580] (-) TimerEvent: {}
+[38.269894] (-) TimerEvent: {}
+[38.370477] (-) TimerEvent: {}
+[38.476033] (-) TimerEvent: {}
+[38.576433] (-) TimerEvent: {}
+[38.676877] (-) TimerEvent: {}
+[38.777826] (-) TimerEvent: {}
+[38.878302] (-) TimerEvent: {}
+[38.978971] (-) TimerEvent: {}
+[39.079546] (-) TimerEvent: {}
+[39.183113] (-) TimerEvent: {}
+[39.285777] (-) TimerEvent: {}
+[39.386650] (-) TimerEvent: {}
+[39.487589] (-) TimerEvent: {}
+[39.588232] (-) TimerEvent: {}
+[39.688619] (-) TimerEvent: {}
+[39.789292] (-) TimerEvent: {}
+[39.890998] (-) TimerEvent: {}
+[39.991614] (-) TimerEvent: {}
+[40.092578] (-) TimerEvent: {}
+[40.193032] (-) TimerEvent: {}
+[40.296073] (-) TimerEvent: {}
+[40.396575] (-) TimerEvent: {}
+[40.498188] (-) TimerEvent: {}
+[40.599841] (-) TimerEvent: {}
+[40.700402] (-) TimerEvent: {}
+[40.800910] (-) TimerEvent: {}
+[40.901814] (-) TimerEvent: {}
+[41.004164] (-) TimerEvent: {}
+[41.108417] (-) TimerEvent: {}
+[41.209265] (-) TimerEvent: {}
+[41.309753] (-) TimerEvent: {}
+[41.410252] (-) TimerEvent: {}
+[41.510958] (-) TimerEvent: {}
+[41.611764] (-) TimerEvent: {}
+[41.712540] (-) TimerEvent: {}
+[41.813370] (-) TimerEvent: {}
+[41.915458] (-) TimerEvent: {}
+[42.016124] (-) TimerEvent: {}
+[42.118061] (-) TimerEvent: {}
+[42.218862] (-) TimerEvent: {}
+[42.319908] (-) TimerEvent: {}
+[42.422365] (-) TimerEvent: {}
+[42.523622] (-) TimerEvent: {}
+[42.624722] (-) TimerEvent: {}
+[42.725258] (-) TimerEvent: {}
+[42.826631] (-) TimerEvent: {}
+[42.927508] (-) TimerEvent: {}
+[43.027915] (-) TimerEvent: {}
+[43.128412] (-) TimerEvent: {}
+[43.248002] (-) TimerEvent: {}
+[43.348459] (-) TimerEvent: {}
+[43.455137] (-) TimerEvent: {}
+[43.556599] (-) TimerEvent: {}
+[43.659120] (-) TimerEvent: {}
+[43.762687] (-) TimerEvent: {}
+[43.866760] (-) TimerEvent: {}
+[43.943395] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[43.966898] (-) TimerEvent: {}
+[44.067498] (-) TimerEvent: {}
+[44.168537] (-) TimerEvent: {}
+[44.237048] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[44.268887] (-) TimerEvent: {}
+[44.345008] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[44.353818] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[44.369301] (-) TimerEvent: {}
+[44.380864] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[44.382610] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[44.469763] (-) TimerEvent: {}
+[44.570309] (-) TimerEvent: {}
+[44.671214] (-) TimerEvent: {}
+[44.774090] (-) TimerEvent: {}
+[44.875435] (-) TimerEvent: {}
+[44.978022] (-) TimerEvent: {}
+[45.079793] (-) TimerEvent: {}
+[45.182178] (-) TimerEvent: {}
+[45.284087] (-) TimerEvent: {}
+[45.386216] (-) TimerEvent: {}
+[45.488741] (-) TimerEvent: {}
+[45.591460] (-) TimerEvent: {}
+[45.692154] (-) TimerEvent: {}
+[45.772113] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[45.772684] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[45.792638] (-) TimerEvent: {}
+[45.894710] (-) TimerEvent: {}
+[45.996252] (-) TimerEvent: {}
+[46.097146] (-) TimerEvent: {}
+[46.198512] (-) TimerEvent: {}
+[46.301404] (-) TimerEvent: {}
+[46.402843] (-) TimerEvent: {}
+[46.504279] (-) TimerEvent: {}
+[46.605612] (-) TimerEvent: {}
+[46.708581] (-) TimerEvent: {}
+[46.810636] (-) TimerEvent: {}
+[46.912084] (-) TimerEvent: {}
+[47.014099] (-) TimerEvent: {}
+[47.115957] (-) TimerEvent: {}
+[47.217134] (-) TimerEvent: {}
+[47.231894] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[47.232224] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[47.328283] (-) TimerEvent: {}
+[47.431100] (-) TimerEvent: {}
+[47.537544] (-) TimerEvent: {}
+[47.638625] (-) TimerEvent: {}
+[47.746067] (-) TimerEvent: {}
+[47.848889] (-) TimerEvent: {}
+[47.949594] (-) TimerEvent: {}
+[48.050563] (-) TimerEvent: {}
+[48.151272] (-) TimerEvent: {}
+[48.251692] (-) TimerEvent: {}
+[48.352549] (-) TimerEvent: {}
+[48.430910] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[48.432797] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[48.452664] (-) TimerEvent: {}
+[48.553394] (-) TimerEvent: {}
+[48.653929] (-) TimerEvent: {}
+[48.754403] (-) TimerEvent: {}
+[48.854877] (-) TimerEvent: {}
+[48.955323] (-) TimerEvent: {}
+[49.056342] (-) TimerEvent: {}
+[49.158325] (-) TimerEvent: {}
+[49.280632] (-) TimerEvent: {}
+[49.384893] (-) TimerEvent: {}
+[49.486204] (-) TimerEvent: {}
+[49.586663] (-) TimerEvent: {}
+[49.687183] (-) TimerEvent: {}
+[49.792842] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[49.793048] (-) TimerEvent: {}
+[49.793245] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[49.900155] (-) TimerEvent: {}
+[50.006724] (-) TimerEvent: {}
+[50.112670] (-) TimerEvent: {}
+[50.137654] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found rclcpp_action: 9.2.2 (/opt/ros/galactic/share/rclcpp_action/cmake)\n'}
+[50.215671] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[50.215931] (-) TimerEvent: {}
+[50.316498] (-) TimerEvent: {}
+[50.416899] (-) TimerEvent: {}
+[50.517652] (-) TimerEvent: {}
+[50.561420] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[50.561715] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[50.561815] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[50.561903] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[50.561983] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[50.562077] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[50.562754] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[50.562937] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[50.563030] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[50.563217] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[50.575045] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[50.618943] (-) TimerEvent: {}
+[50.630750] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Generating done\n'}
+[50.639663] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_client\n'}
+[50.674341] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[50.675574] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[50.675747] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[50.675848] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[50.675930] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[50.676009] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[50.676101] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[50.676181] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[50.676264] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[50.676340] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[50.676421] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[50.676497] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[50.676578] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[50.676659] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[50.676747] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[50.676832] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[50.676909] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[50.676985] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)\n'}
+[50.677064] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[50.677148] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[50.677223] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[50.677306] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[50.677390] (examples_rclcpp_minimal_action_client) CommandEnded: {'returncode': 0}
+[50.678258] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'build'}
+[50.682608] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_client', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_client'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[50.720284] (-) TimerEvent: {}
+[50.821373] (-) TimerEvent: {}
+[50.927590] (-) TimerEvent: {}
+[51.028721] (-) TimerEvent: {}
+[51.129193] (-) TimerEvent: {}
+[51.229557] (-) TimerEvent: {}
+[51.329959] (-) TimerEvent: {}
+[51.430365] (-) TimerEvent: {}
+[51.530802] (-) TimerEvent: {}
+[51.631184] (-) TimerEvent: {}
+[51.731584] (-) TimerEvent: {}
+[51.837575] (-) TimerEvent: {}
+[51.937990] (-) TimerEvent: {}
+[52.047257] (-) TimerEvent: {}
+[52.147623] (-) TimerEvent: {}
+[52.248018] (-) TimerEvent: {}
+[52.360763] (-) TimerEvent: {}
+[52.470581] (-) TimerEvent: {}
+[52.570955] (-) TimerEvent: {}
+[52.671339] (-) TimerEvent: {}
+[52.780734] (-) TimerEvent: {}
+[52.881151] (-) TimerEvent: {}
+[52.981664] (-) TimerEvent: {}
+[53.086477] (-) TimerEvent: {}
+[53.191011] (-) TimerEvent: {}
+[53.291459] (-) TimerEvent: {}
+[53.391939] (-) TimerEvent: {}
+[53.492403] (-) TimerEvent: {}
+[53.592868] (-) TimerEvent: {}
+[53.698724] (-) TimerEvent: {}
+[53.799154] (-) TimerEvent: {}
+[53.868178] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[53.900818] (-) TimerEvent: {}
+[54.001223] (-) TimerEvent: {}
+[54.103595] (-) TimerEvent: {}
+[54.144180] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[54.203708] (-) TimerEvent: {}
+[54.241541] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[54.241776] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[54.254661] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[54.303794] (-) TimerEvent: {}
+[54.304917] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[54.309047] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[54.403912] (-) TimerEvent: {}
+[54.488398] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[54.491253] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[54.504023] (-) TimerEvent: {}
+[54.604408] (-) TimerEvent: {}
+[54.627835] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[54.630584] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[54.704532] (-) TimerEvent: {}
+[54.807082] (-) TimerEvent: {}
+[54.907472] (-) TimerEvent: {}
+[55.007848] (-) TimerEvent: {}
+[55.108228] (-) TimerEvent: {}
+[55.208644] (-) TimerEvent: {}
+[55.309038] (-) TimerEvent: {}
+[55.410691] (-) TimerEvent: {}
+[55.511120] (-) TimerEvent: {}
+[55.611563] (-) TimerEvent: {}
+[55.711935] (-) TimerEvent: {}
+[55.813108] (-) TimerEvent: {}
+[55.914025] (-) TimerEvent: {}
+[56.014492] (-) TimerEvent: {}
+[56.114998] (-) TimerEvent: {}
+[56.215482] (-) TimerEvent: {}
+[56.300672] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[56.315632] (-) TimerEvent: {}
+[56.415997] (-) TimerEvent: {}
+[56.487451] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[56.500568] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[56.520192] (-) TimerEvent: {}
+[56.570571] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[56.578382] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[56.620346] (-) TimerEvent: {}
+[56.720716] (-) TimerEvent: {}
+[56.821262] (-) TimerEvent: {}
+[56.929594] (-) TimerEvent: {}
+[57.033944] (-) TimerEvent: {}
+[57.134329] (-) TimerEvent: {}
+[57.236978] (-) TimerEvent: {}
+[57.337413] (-) TimerEvent: {}
+[57.438504] (-) TimerEvent: {}
+[57.538865] (-) TimerEvent: {}
+[57.648328] (-) TimerEvent: {}
+[57.750243] (-) TimerEvent: {}
+[57.850861] (-) TimerEvent: {}
+[57.953072] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[57.953287] (-) TimerEvent: {}
+[57.953464] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[58.053430] (-) TimerEvent: {}
+[58.154152] (-) TimerEvent: {}
+[58.254605] (-) TimerEvent: {}
+[58.355027] (-) TimerEvent: {}
+[58.455684] (-) TimerEvent: {}
+[58.556067] (-) TimerEvent: {}
+[58.656437] (-) TimerEvent: {}
+[58.757179] (-) TimerEvent: {}
+[58.857575] (-) TimerEvent: {}
+[58.965489] (-) TimerEvent: {}
+[59.066971] (-) TimerEvent: {}
+[59.167600] (-) TimerEvent: {}
+[59.233115] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[59.234384] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[59.267743] (-) TimerEvent: {}
+[59.370324] (-) TimerEvent: {}
+[59.470699] (-) TimerEvent: {}
+[59.571293] (-) TimerEvent: {}
+[59.603421] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[59.603648] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[59.674358] (-) TimerEvent: {}
+[59.775083] (-) TimerEvent: {}
+[59.875520] (-) TimerEvent: {}
+[59.975900] (-) TimerEvent: {}
+[60.076578] (-) TimerEvent: {}
+[60.177265] (-) TimerEvent: {}
+[60.277746] (-) TimerEvent: {}
+[60.378259] (-) TimerEvent: {}
+[60.481623] (-) TimerEvent: {}
+[60.588027] (-) TimerEvent: {}
+[60.688495] (-) TimerEvent: {}
+[60.788954] (-) TimerEvent: {}
+[60.892107] (-) TimerEvent: {}
+[60.992552] (-) TimerEvent: {}
+[61.093008] (-) TimerEvent: {}
+[61.193393] (-) TimerEvent: {}
+[61.293839] (-) TimerEvent: {}
+[61.394372] (-) TimerEvent: {}
+[61.494850] (-) TimerEvent: {}
+[61.595270] (-) TimerEvent: {}
+[61.695682] (-) TimerEvent: {}
+[61.796065] (-) TimerEvent: {}
+[61.896548] (-) TimerEvent: {}
+[61.997054] (-) TimerEvent: {}
+[62.097575] (-) TimerEvent: {}
+[62.197988] (-) TimerEvent: {}
+[62.305337] (-) TimerEvent: {}
+[62.397566] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[62.405463] (-) TimerEvent: {}
+[62.412720] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[62.505606] (-) TimerEvent: {}
+[62.586178] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[62.586404] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[62.605718] (-) TimerEvent: {}
+[62.707714] (-) TimerEvent: {}
+[62.808209] (-) TimerEvent: {}
+[62.908626] (-) TimerEvent: {}
+[63.009010] (-) TimerEvent: {}
+[63.074412] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[63.111995] (-) TimerEvent: {}
+[63.212456] (-) TimerEvent: {}
+[63.308336] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[63.312602] (-) TimerEvent: {}
+[63.325754] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[63.409850] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[63.422105] (-) TimerEvent: {}
+[63.423142] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[63.525808] (-) TimerEvent: {}
+[63.549627] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[63.549841] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[63.626517] (-) TimerEvent: {}
+[63.737993] (-) TimerEvent: {}
+[63.840282] (-) TimerEvent: {}
+[63.940657] (-) TimerEvent: {}
+[64.041022] (-) TimerEvent: {}
+[64.141439] (-) TimerEvent: {}
+[64.241815] (-) TimerEvent: {}
+[64.357411] (-) TimerEvent: {}
+[64.457848] (-) TimerEvent: {}
+[64.558286] (-) TimerEvent: {}
+[64.658707] (-) TimerEvent: {}
+[64.759181] (-) TimerEvent: {}
+[64.859626] (-) TimerEvent: {}
+[64.960062] (-) TimerEvent: {}
+[65.039575] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[65.039793] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[65.060935] (-) TimerEvent: {}
+[65.161403] (-) TimerEvent: {}
+[65.261973] (-) TimerEvent: {}
+[65.362458] (-) TimerEvent: {}
+[65.462871] (-) TimerEvent: {}
+[65.571355] (-) TimerEvent: {}
+[65.672659] (-) TimerEvent: {}
+[65.724759] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[65.725037] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[65.776724] (-) TimerEvent: {}
+[65.866792] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[65.877099] (-) TimerEvent: {}
+[65.877600] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[65.947020] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[65.947264] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[65.977701] (-) TimerEvent: {}
+[66.078147] (-) TimerEvent: {}
+[66.178861] (-) TimerEvent: {}
+[66.280450] (-) TimerEvent: {}
+[66.387553] (-) TimerEvent: {}
+[66.490458] (-) TimerEvent: {}
+[66.608956] (-) TimerEvent: {}
+[66.673693] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[66.673927] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[66.716547] (-) TimerEvent: {}
+[66.816991] (-) TimerEvent: {}
+[66.919603] (-) TimerEvent: {}
+[67.033397] (-) TimerEvent: {}
+[67.118985] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found rclcpp_action: 9.2.2 (/opt/ros/galactic/share/rclcpp_action/cmake)\n'}
+[67.133519] (-) TimerEvent: {}
+[67.199878] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[67.238635] (-) TimerEvent: {}
+[67.340754] (-) TimerEvent: {}
+[67.385545] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[67.385837] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[67.385942] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[67.386027] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[67.386264] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[67.386445] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[67.387183] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[67.393519] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[67.393747] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[67.395258] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[67.403836] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[67.430024] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Generating done\n'}
+[67.432788] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_server\n'}
+[67.440779] (-) TimerEvent: {}
+[67.453926] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[67.454585] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[67.454697] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[67.454787] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[67.454875] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[67.454964] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[67.455048] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[67.455128] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[67.455207] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[67.455316] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[67.455428] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[67.455511] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[67.455590] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[67.455668] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[67.455746] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[67.455831] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[67.471296] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[67.472322] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[67.472905] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[67.473475] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[67.474031] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[67.474541] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[67.475092] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[67.475631] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[67.476148] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[67.476681] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[67.477223] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[67.499298] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[67.499427] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[67.499524] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[67.499654] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[67.499738] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[67.499817] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[67.499890] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[67.499966] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[67.500047] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[67.500135] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[67.500213] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[67.500288] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[67.500375] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[67.500450] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[67.500526] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[67.500602] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[67.500675] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[67.500750] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[67.500823] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[67.500898] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[67.500976] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[67.501056] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_subscriber\n'}
+[67.501138] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_client_not_composable_with_cancel\x1b[0m\n'}
+[67.501238] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_client_not_composable_with_feedback\x1b[0m\n'}
+[67.501314] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_client_not_composable\x1b[0m\n'}
+[67.501388] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_client_member_functions\x1b[0m\n'}
+[67.501463] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[67.501551] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o\x1b[0m\n'}
+[67.501632] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o\x1b[0m\n'}
+[67.501711] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o\x1b[0m\n'}
+[67.501816] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable action_client_not_composable\x1b[0m\n'}
+[67.501920] (examples_rclcpp_minimal_subscriber) CommandEnded: {'returncode': 0}
+[67.502441] (examples_rclcpp_minimal_subscriber) JobProgress: {'identifier': 'examples_rclcpp_minimal_subscriber', 'progress': 'build'}
+[67.502479] (examples_rclcpp_minimal_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_subscriber', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_subscriber'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[67.502830] (examples_rclcpp_minimal_action_server) CommandEnded: {'returncode': 0}
+[67.503105] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'build'}
+[67.503142] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_server', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_action_server'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[67.542080] (-) TimerEvent: {}
+[67.642531] (-) TimerEvent: {}
+[67.753542] (-) TimerEvent: {}
+[67.833594] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[67.833848] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[67.854112] (-) TimerEvent: {}
+[67.874414] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[67.874654] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[67.928080] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[67.928319] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[67.954469] (-) TimerEvent: {}
+[68.061336] (-) TimerEvent: {}
+[68.171077] (-) TimerEvent: {}
+[68.223822] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 62%] Built target action_client_not_composable\n'}
+[68.271209] (-) TimerEvent: {}
+[68.377330] (-) TimerEvent: {}
+[68.477946] (-) TimerEvent: {}
+[68.478647] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[68.591951] (-) TimerEvent: {}
+[68.642977] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable action_client_not_composable_with_feedback\x1b[0m\n'}
+[68.692078] (-) TimerEvent: {}
+[68.763065] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[68.776249] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[68.777200] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor/include\n'}
+[68.777460] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[68.779147] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[68.779389] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[68.780889] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[68.782729] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[68.783010] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[68.784128] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[68.797567] (-) TimerEvent: {}
+[68.813231] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configuring done\n'}
+[68.868220] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Generating done\n'}
+[68.872253] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor\n'}
+[68.899281] (-) TimerEvent: {}
+[68.927560] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_lambda\x1b[0m\n'}
+[68.927767] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_member_function_with_unique_network_flow_endpoints\x1b[0m\n'}
+[68.927866] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_member_function\x1b[0m\n'}
+[68.927954] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o\x1b[0m\n'}
+[68.928045] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o\x1b[0m\n'}
+[68.928132] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o\x1b[0m\n'}
+[68.946476] (examples_rclcpp_cbg_executor) CommandEnded: {'returncode': 0}
+[68.955012] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'build'}
+[68.955066] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_cbg_executor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[68.999458] (-) TimerEvent: {}
+[69.019995] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[69.105836] (-) TimerEvent: {}
+[69.212825] (-) TimerEvent: {}
+[69.313598] (-) TimerEvent: {}
+[69.414017] (-) TimerEvent: {}
+[69.514426] (-) TimerEvent: {}
+[69.594662] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[69.594897] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[69.594991] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[69.595077] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[69.595158] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[69.595237] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[69.618434] (-) TimerEvent: {}
+[69.621198] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[69.622888] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[69.623147] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[69.629429] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[69.636498] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[69.718561] (-) TimerEvent: {}
+[69.824608] (-) TimerEvent: {}
+[69.885544] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[69.930653] (-) TimerEvent: {}
+[69.964371] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_publisher\n'}
+[70.028539] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server_member_functions\x1b[0m\n'}
+[70.028741] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server_not_composable\x1b[0m\n'}
+[70.028858] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o\x1b[0m\n'}
+[70.028979] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[70.031737] (examples_rclcpp_minimal_publisher) CommandEnded: {'returncode': 0}
+[70.033642] (-) TimerEvent: {}
+[70.034735] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'build'}
+[70.034923] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_publisher', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-6a605d22-3a72-4bca-b02e-9fa73ed99fda.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('GDK_SCALE', '1'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('NAME', 'NUVO8108GC-001'), ('WSL_INTEROP', '/run/WSL/4550_interop'), ('PULSE_SERVER', 'tcp:172.26.48.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.1/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Nuvo8108GC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nuvo8108GC/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', '172.26.48.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-66af83084a.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[70.134405] (-) TimerEvent: {}
+[70.235296] (-) TimerEvent: {}
+[70.336988] (-) TimerEvent: {}
+[70.437349] (-) TimerEvent: {}
+[70.537732] (-) TimerEvent: {}
+[70.638117] (-) TimerEvent: {}
+[70.740817] (-) TimerEvent: {}
+[70.841194] (-) TimerEvent: {}
+[70.941913] (-) TimerEvent: {}
+[71.042893] (-) TimerEvent: {}
+[71.143275] (-) TimerEvent: {}
+[71.243647] (-) TimerEvent: {}
+[71.344028] (-) TimerEvent: {}
+[71.444537] (-) TimerEvent: {}
+[71.468277] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable action_client_member_functions\x1b[0m\n'}
+[71.544870] (-) TimerEvent: {}
+[71.647125] (-) TimerEvent: {}
+[71.748278] (-) TimerEvent: {}
+[71.856227] (-) TimerEvent: {}
+[71.956718] (-) TimerEvent: {}
+[72.057250] (-) TimerEvent: {}
+[72.157667] (-) TimerEvent: {}
+[72.265009] (-) TimerEvent: {}
+[72.301508] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_client_not_composable_with_cancel\x1b[0m\n'}
+[72.365619] (-) TimerEvent: {}
+[72.466066] (-) TimerEvent: {}
+[72.571932] (-) TimerEvent: {}
+[72.672582] (-) TimerEvent: {}
+[72.772957] (-) TimerEvent: {}
+[72.873347] (-) TimerEvent: {}
+[72.973956] (-) TimerEvent: {}

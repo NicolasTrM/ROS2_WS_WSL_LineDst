@@ -1,0 +1,398 @@
+[1.889s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis']
+[1.889s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/ubuntu/wsl2_dev_ros2/WS_Transpolis'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f586299dfd0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f586299dfd0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f58628d0a60>)
+[2.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.010s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extensions ['ignore', 'ignore_ament_install']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'ignore'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'ignore_ament_install'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extensions ['colcon_pkg']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'colcon_pkg'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extensions ['colcon_meta']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'colcon_meta'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extensions ['ros']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'ros'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extensions ['cmake', 'python']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'cmake'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'python'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extensions ['python_setup_py']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis) by extension 'python_setup_py'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/log) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/log) by extension 'ignore'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/log) ignored
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extensions ['ignore', 'ignore_ament_install']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'ignore'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'ignore_ament_install'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extensions ['colcon_pkg']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'colcon_pkg'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extensions ['colcon_meta']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'colcon_meta'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extensions ['ros']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'ros'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extensions ['cmake', 'python']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'cmake'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'python'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extensions ['python_setup_py']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src) by extension 'python_setup_py'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extensions ['ignore', 'ignore_ament_install']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'ignore'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'ignore_ament_install'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extensions ['colcon_pkg']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'colcon_pkg'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extensions ['colcon_meta']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'colcon_meta'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extensions ['ros']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'ros'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extensions ['cmake', 'python']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'cmake'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'python'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extensions ['python_setup_py']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples) by extension 'python_setup_py'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'ignore_ament_install'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extensions ['colcon_pkg']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'colcon_pkg'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extensions ['colcon_meta']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'colcon_meta'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extensions ['ros']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'ros'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extensions ['cmake', 'python']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'cmake'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'python'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extensions ['python_setup_py']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp) by extension 'python_setup_py'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extensions ['ignore', 'ignore_ament_install']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'ignore'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'ignore_ament_install'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extensions ['colcon_pkg']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'colcon_pkg'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extensions ['colcon_meta']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'colcon_meta'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extensions ['ros']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'ros'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extensions ['cmake', 'python']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'cmake'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'python'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extensions ['python_setup_py']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions) by extension 'python_setup_py'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extensions ['ignore', 'ignore_ament_install']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extension 'ignore'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extension 'ignore_ament_install'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extensions ['colcon_pkg']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extension 'colcon_pkg'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extensions ['colcon_meta']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extension 'colcon_meta'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extensions ['ros']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client) by extension 'ros'
+[2.124s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_action_client'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extensions ['ignore', 'ignore_ament_install']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extension 'ignore'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extension 'ignore_ament_install'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extensions ['colcon_pkg']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extension 'colcon_pkg'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extensions ['colcon_meta']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extension 'colcon_meta'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extensions ['ros']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server) by extension 'ros'
+[2.129s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/actions/minimal_action_server' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_action_server'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extensions ['ignore', 'ignore_ament_install']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'ignore'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'ignore_ament_install'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extensions ['colcon_pkg']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'colcon_pkg'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extensions ['colcon_meta']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'colcon_meta'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extensions ['ros']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'ros'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extensions ['cmake', 'python']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'cmake'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'python'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extensions ['python_setup_py']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition) by extension 'python_setup_py'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extensions ['ignore', 'ignore_ament_install']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extension 'ignore'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extension 'ignore_ament_install'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extensions ['colcon_pkg']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extension 'colcon_pkg'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extensions ['colcon_meta']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extension 'colcon_meta'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extensions ['ros']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition) by extension 'ros'
+[2.132s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_composition'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extensions ['ignore', 'ignore_ament_install']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'ignore'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'ignore_ament_install'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extensions ['colcon_pkg']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'colcon_pkg'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extensions ['colcon_meta']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'colcon_meta'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extensions ['ros']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'ros'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extensions ['cmake', 'python']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'cmake'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'python'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extensions ['python_setup_py']
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors) by extension 'python_setup_py'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extensions ['ignore', 'ignore_ament_install']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extension 'ignore'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extension 'ignore_ament_install'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extensions ['colcon_pkg']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extension 'colcon_pkg'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extensions ['colcon_meta']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extension 'colcon_meta'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extensions ['ros']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor) by extension 'ros'
+[2.146s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/cbg_executor' with type 'ros.ament_cmake' and name 'examples_rclcpp_cbg_executor'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['ignore', 'ignore_ament_install']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extension 'ignore'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extension 'ignore_ament_install'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['colcon_pkg']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extension 'colcon_pkg'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['colcon_meta']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extension 'colcon_meta'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extensions ['ros']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor) by extension 'ros'
+[2.148s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/executors/multithreaded_executor' with type 'ros.ament_cmake' and name 'examples_rclcpp_multithreaded_executor'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'ignore_ament_install'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extensions ['colcon_pkg']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'colcon_pkg'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extensions ['colcon_meta']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'colcon_meta'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'ros'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extensions ['cmake', 'python']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'cmake'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'python'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extensions ['python_setup_py']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services) by extension 'python_setup_py'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extension 'colcon_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extensions ['colcon_meta']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extension 'colcon_meta'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extensions ['ros']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client) by extension 'ros'
+[2.150s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_client'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extension 'ignore'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extension 'ignore_ament_install'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extensions ['colcon_pkg']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extension 'colcon_pkg'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extensions ['colcon_meta']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extension 'colcon_meta'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service) by extension 'ros'
+[2.171s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/services/minimal_service' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_service'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extensions ['ignore', 'ignore_ament_install']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'ignore'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'ignore_ament_install'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extensions ['colcon_pkg']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'colcon_pkg'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extensions ['colcon_meta']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'colcon_meta'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extensions ['ros']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'ros'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extensions ['cmake', 'python']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'cmake'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'python'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extensions ['python_setup_py']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers) by extension 'python_setup_py'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extensions ['ignore', 'ignore_ament_install']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extension 'ignore'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extension 'ignore_ament_install'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extensions ['colcon_pkg']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extension 'colcon_pkg'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extensions ['colcon_meta']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extension 'colcon_meta'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extensions ['ros']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer) by extension 'ros'
+[2.176s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/timers/minimal_timer' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_timer'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extensions ['ignore', 'ignore_ament_install']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'ignore'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'ignore_ament_install'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extensions ['colcon_pkg']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'colcon_pkg'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extensions ['colcon_meta']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'colcon_meta'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extensions ['ros']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'ros'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extensions ['cmake', 'python']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'cmake'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'python'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extensions ['python_setup_py']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics) by extension 'python_setup_py'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extension 'ignore'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extension 'ignore_ament_install'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extensions ['colcon_pkg']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extension 'colcon_pkg'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extensions ['colcon_meta']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extension 'colcon_meta'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extensions ['ros']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher) by extension 'ros'
+[2.183s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_publisher' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_publisher'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extension 'ignore'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extension 'ignore_ament_install'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['colcon_pkg']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extension 'colcon_pkg'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['colcon_meta']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extension 'colcon_meta'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extensions ['ros']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber) by extension 'ros'
+[2.185s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/topics/minimal_subscriber' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_subscriber'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extensions ['ignore', 'ignore_ament_install']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'ignore'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'ignore_ament_install'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extensions ['colcon_pkg']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'colcon_pkg'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extensions ['colcon_meta']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'colcon_meta'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extensions ['ros']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'ros'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extensions ['cmake', 'python']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'cmake'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'python'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extensions ['python_setup_py']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy) by extension 'python_setup_py'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'ignore_ament_install'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extensions ['colcon_pkg']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'colcon_pkg'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extensions ['colcon_meta']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'colcon_meta'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extensions ['ros']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'ros'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extensions ['cmake', 'python']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'cmake'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'python'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extensions ['python_setup_py']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions) by extension 'python_setup_py'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extensions ['ignore', 'ignore_ament_install']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extension 'ignore'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extension 'ignore_ament_install'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extensions ['colcon_pkg']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extension 'colcon_pkg'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extensions ['colcon_meta']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extension 'colcon_meta'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extensions ['ros']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client) by extension 'ros'
+[2.191s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_client' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_client'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extensions ['ignore', 'ignore_ament_install']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extension 'ignore'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extension 'ignore_ament_install'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extensions ['colcon_pkg']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extension 'colcon_pkg'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extensions ['colcon_meta']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extension 'colcon_meta'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extensions ['ros']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server) by extension 'ros'
+[2.195s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/actions/minimal_action_server' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_server'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extensions ['ignore', 'ignore_ament_install']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extension 'ignore'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extension 'ignore_ament_install'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extension 'colcon_meta'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extensions ['ros']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors) by extension 'ros'
+[2.198s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/executors' with type 'ros.ament_python' and name 'examples_rclpy_executors'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extensions ['ignore', 'ignore_ament_install']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extension 'ignore'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extension 'ignore_ament_install'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extensions ['colcon_pkg']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extension 'colcon_pkg'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extensions ['colcon_meta']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extension 'colcon_meta'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extensions ['ros']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions) by extension 'ros'
+[2.200s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/guard_conditions' with type 'ros.ament_python' and name 'examples_rclpy_guard_conditions'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extensions ['ignore', 'ignore_ament_install']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'ignore'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'ignore_ament_install'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extensions ['colcon_pkg']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'colcon_pkg'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extensions ['colcon_meta']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'ros'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extensions ['cmake', 'python']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'cmake'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'python'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extensions ['python_setup_py']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services) by extension 'python_setup_py'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extensions ['ignore', 'ignore_ament_install']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extension 'ignore'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extension 'ignore_ament_install'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extensions ['colcon_pkg']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extension 'colcon_pkg'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extensions ['colcon_meta']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extension 'colcon_meta'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extensions ['ros']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client) by extension 'ros'
+[2.206s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_client' with type 'ros.ament_python' and name 'examples_rclpy_minimal_client'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extension 'ignore_ament_install'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extensions ['colcon_pkg']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extension 'colcon_pkg'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extensions ['colcon_meta']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extension 'colcon_meta'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extensions ['ros']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service) by extension 'ros'
+[2.208s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/services/minimal_service' with type 'ros.ament_python' and name 'examples_rclpy_minimal_service'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'ignore'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'ignore_ament_install'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extensions ['colcon_pkg']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'colcon_pkg'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extensions ['colcon_meta']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'colcon_meta'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extensions ['ros']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'ros'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extensions ['cmake', 'python']
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'cmake'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'python'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extensions ['python_setup_py']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics) by extension 'python_setup_py'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extension 'ignore'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extension 'ignore_ament_install'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extensions ['colcon_pkg']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extension 'colcon_pkg'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extensions ['colcon_meta']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extension 'colcon_meta'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extensions ['ros']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher) by extension 'ros'
+[2.217s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_publisher' with type 'ros.ament_python' and name 'examples_rclpy_minimal_publisher'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extension 'ignore'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extension 'ignore_ament_install'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extensions ['colcon_pkg']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extension 'colcon_pkg'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extensions ['colcon_meta']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extension 'colcon_meta'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extensions ['ros']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber) by extension 'ros'
+[2.220s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/minimal_subscriber' with type 'ros.ament_python' and name 'examples_rclpy_minimal_subscriber'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extension 'ignore'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extension 'ignore_ament_install'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['colcon_pkg']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extension 'colcon_pkg'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['colcon_meta']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extension 'colcon_meta'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extensions ['ros']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher) by extension 'ros'
+[2.222s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclpy/topics/pointcloud_publisher' with type 'ros.ament_python' and name 'examples_rclpy_pointcloud_publisher'
+[2.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

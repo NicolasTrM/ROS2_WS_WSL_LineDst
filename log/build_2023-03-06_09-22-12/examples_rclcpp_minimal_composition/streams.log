@@ -1,0 +1,32 @@
+[0.190s] Invoking command in '/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/wsl2_dev_ros2/WS_Transpolis/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/ubuntu/wsl2_dev_ros2/WS_Transpolis/install
+[1.858s] -- The C compiler identification is GNU 9.4.0
+[3.735s] -- The CXX compiler identification is GNU 9.4.0
+[4.903s] -- Check for working C compiler: /usr/bin/cc
+[5.966s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.966s] -- Detecting C compiler ABI info
+[7.057s] -- Detecting C compiler ABI info - done
+[7.075s] -- Detecting C compile features
+[7.077s] -- Detecting C compile features - done
+[7.096s] -- Check for working CXX compiler: /usr/bin/c++
+[8.131s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.145s] -- Detecting CXX compiler ABI info
+[9.303s] -- Detecting CXX compiler ABI info - done
+[9.322s] -- Detecting CXX compile features
+[9.322s] -- Detecting CXX compile features - done
+[9.323s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[9.377s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.379s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.565s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[10.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.909s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[21.045s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[30.105s] -- Found FastRTPS: /opt/ros/galactic/include  
+[62.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[63.233s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[63.250s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[63.335s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[63.348s] -- Looking for pthread.h
+[65.872s] -- Looking for pthread.h - found
+[65.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[67.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[67.758s] -- Looking for pthread_create in pthreads
